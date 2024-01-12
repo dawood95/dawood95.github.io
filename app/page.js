@@ -113,7 +113,7 @@ export default function Home() {
         </Timeline>
         <Timeline year="2017">
           <p class="font-bold leading-relaxed">Started PhD at Purdue University</p>
-          <p class="leading-tight"><span class="font-semibold">Research:</span> Reinforcement learning and efficient deep neural networks for computer vision</p>
+          <p class="leading-tight"><span class="font-semibold">Research:</span> Computer Vision, Reinforcement Learning</p>
           <p class="leading-tight"><span class="font-semibold">Advisor:</span> Dr. Eugenio Culurciello</p>
         </Timeline>
         <Timeline year="2016 - 2017">
