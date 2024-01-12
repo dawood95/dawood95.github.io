@@ -103,7 +103,7 @@ export default function Home() {
         <Timeline year="2017 - 2019">
           <p class="font-bold leading-relaxed">Research Engineer, FWDNXT (acquired by Micron)</p>
           <p class="leading-tight pt-1">Built efficient deep neural networks for various applications including object detection, tracking, pose estimation, face and speech recognition etc. All of these networks were designed and optimized specifically for the FWDNXT accelerator.</p>
-          <p class="leading-tight pt-1">Some stuff I worked on:</p>
+          <p class="leading-tight pt-1">Some projects I worked on:</p>
           <div class="flex flex-row flex-wrap gap-3">
             <iframe src="https://www.youtube-nocookie.com/embed/Nh2ZAb37m3s?si=CCJ_eu1mPmvThKiN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe src="https://www.youtube-nocookie.com/embed/SnTVpfH_4l4?si=UvYfZ1EE_idbwIKh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
