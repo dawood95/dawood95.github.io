@@ -112,18 +112,19 @@ export default function Home() {
           </div>
         </Timeline>
         <Timeline year="2017">
-          <p class="font-bold leading-relaxed">Started PhD at Purdue University w/ Eugenio Culurciello</p>
-          <p class="leading tight pt-1">Worked on efficient deep neural networks for computer vision and reinforcement learning</p>
+          <p class="font-bold leading-relaxed">Started PhD at Purdue University</p>
+          <p class="leading-tight"><span class="font-semibold">Research:</span> Reinforcement learning and efficient deep neural networks for computer vision</p>
+          <p class="leading-tight"><span class="font-semibold">Advisor:</span> Dr. Eugenio Culurciello</p>
         </Timeline>
         <Timeline year="2016 - 2017">
-            <p class="font-bold leading-relaxed">Founding Engineer, Perceive</p>
+            <p class="font-bold leading-relaxed">Founding Engineer, Perceive Inc</p>
             <p class="leading-tight  pt-1">Startup building retail analytics for the physical world. Perceive is now an open source organization. Please visit <a class="hover:text-blue-600" href="https://prcvlabs.org/">prcvlabs.org</a> to learn more</p>
             <p class="leading-tight  pt-1">Designed and built the core video processing pipeline and computer vision algorithms to triangulate and track people inside retail stores. 
             Collected, cleaned and annotated a multiview dataset of shoppers to finetune pre-trained vision models.</p>            
         </Timeline>
         <Timeline year="Summer 2016">
             <p class="font-bold leading-relaxed">Software Development Intern, Bloomberg</p>
-            <p class="leading-tight  pt-1">Shipped an anomaly detection and trade workflow recommendation feature for Bloomberg's middle office tools. Used boosted trees to predict with <span class="font-semibold">95%</span> accuracy the future state of a given trade workflow.</p>
+            <p class="leading-tight  pt-1">Shipped an anomaly detection and trade workflow recommendation feature for Bloomberg's middle office tools. Used boosted trees to predict the future state of a given trade workflow with <span class="font-semibold">95%</span> accuracy.</p>
         </Timeline>
         <Timeline year="2016">
             <p class="leading-tight font-bold leading-relaxed">BSc Computer Engineering, Purdue University</p>
