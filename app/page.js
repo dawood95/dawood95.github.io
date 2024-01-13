@@ -68,7 +68,7 @@ export default function Home() {
           <div class="leading-tight ">
             <p>Worked on VFX automation for <a class="button underline underline-offset-2 decoration-2 hover:decoration-amber-500" href="https://www.fastcompany.com/90772200/virtual-product-placement-streaming-video-amazon" target="_blank">Virtual Product Placement</a>. 
             My core research focus was to automate Matchmove, i.e. to recover camera trajectories and scene geometry from cinematic shots with unknown intrinsics.</p>
-            <p class="pt-1">I designed and built a structure from motion pipeline to recover 3D camera positions and scene geometry from challenging shots with unknown camera intrinsics. 
+            <p class="pt-1">I designed and built a structure from motion pipeline to recover camera trajectory and scene geometry from challenging shots with unknown camera intrinsics. 
               By incorporating depth cues and dense keypoint tracks as priors, I achieved a <span class="font-semibold">70%</span> increase in success rate over traditional SFM approaches. In addition, I pioneered research into test-time optimization techniques leveraging learned uncertainty and motion constraints to jointly learn camera trajectories and scene radiance fields. </p>
             <p class="pt-1">Beyond research, I shipped a live virtual product placement pipeline, orchestrating three neural networks + rendering in real-time on a single GPU. Using multithreading and interpolation,
                I optimized the pipeline to run at <span class="font-semibold">60 fps</span> for seamless video processing.</p>
