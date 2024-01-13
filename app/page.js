@@ -70,7 +70,7 @@ export default function Home() {
             My core research focus was to automate Matchmove, i.e. to recover camera trajectories and scene geometry from cinematic shots with unknown intrinsics.</p>
             <p class="pt-1">I designed and built a structure from motion pipeline to recover camera trajectory and scene geometry from challenging shots with unknown camera intrinsics. 
               By incorporating depth cues and dense keypoint tracks as priors, I achieved a <span class="font-semibold">70%</span> increase in success rate over traditional SFM approaches. In addition, I pioneered research into test-time optimization techniques leveraging learned uncertainty and motion constraints to jointly learn camera trajectories and scene radiance fields. </p>
-            <p class="pt-1">Beyond research, I shipped a live virtual product placement pipeline, orchestrating three neural networks + rendering in real-time on a single GPU. Using multithreading and interpolation,
+            <p class="pt-1">Beyond research, I shipped a live virtual product placement pipeline, orchestrating three neural networks + rendering in real-time on a single GPU. Using threading and interpolation,
                I optimized the pipeline to run at <span class="font-semibold">60 fps</span> for seamless video processing.</p>
           </div>
         </Timeline>
@@ -197,7 +197,7 @@ export default function Home() {
             <li class="flex flex-row flex-wrap gap-4 py-2">
               <img class="max-w-56 h-auto rounded-sm" src="/nnlab.png"></img> 
               <div class="">
-                <p>Tool to interactively visualize the compute and memory profile of a neural network.</p>
+                <p class="font-medium">Tool to interactively visualize the compute and memory profile of a neural network.</p>
                 <p class="text-sm font-bold"><a class="hover:text-amber-500" href="https://github.com/dawood95/nnlab" target="_blank">[code]</a> <a class="hover:text-amber-500" href="https://dawood95.github.io/nnlab" target="_blank">[try it]</a></p>
               </div>
             </li>
